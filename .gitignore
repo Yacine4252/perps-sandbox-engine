@@ -1,0 +1,35 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# engine runtime files (logs, state, kill switch, lock)
+*.log
+*.lock
+HALT
+HALT-SANDBOX
+state*.json
+sandbox-positions-*.json
+resume*.txt
+ALERTE.txt
+calendrier-ff.json
+tendance-etat.json
+comptes/
+
+# price data and generated pages
+*.csv
+prix-sauvegarde*.json
+graphique-trades.html
+
+# research data and outputs
+recherche/**/donnees*/
+recherche/**/cache*/
+recherche/**/resultats/
