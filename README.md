@@ -95,7 +95,6 @@ A sample of what the engine logs is in [`examples/sample-trades-log.jsonl`](exam
 
 - **Sandbox only**: every number below is simulated money.
 - **No edge demonstrated.**
-- **13-day offline replay**: an earlier replay came out at **−$1,452.74 net**.
 - **331-day replay with the real engine code** (1-minute candles, 11 Dec 2025 to 6 Nov 2026, real fees): 787 trades.
 
   | | Net per trade | Profit factor | Total |
@@ -134,3 +133,7 @@ Not included on purpose: `.env` and any key, raw logs, account state files, and 
 ## Disclaimer
 
 Unofficial and not affiliated with, endorsed by, or sponsored by MyFundedPerps. For research and education only. Trading perpetual futures carries a high risk of loss.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The bundled chart library keeps its own Apache 2.0 license (`perps_engine/vendor/`).
