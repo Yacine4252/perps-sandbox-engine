@@ -66,7 +66,7 @@ ACCOUNTS = {
     # Compte d'apprentissage - sert a valider le moteur sur des donnees live.
     "perps_learn": AccountProfile(
         name="perps_learn",
-        account_id="jh74bjpg497kmx8fww0nm03zrx8e7atg",
+        account_id="VOTRE_ID_DE_COMPTE",   # a remplacer par l'id de votre compte
         starting_balance=10_000.0,
     ),
 
